@@ -1,0 +1,10 @@
+button
+{
+    border: black; solid; 60px;
+    transition: delay 2s;
+
+}
+button.hover{
+    color: blue;
+    box-shadow: 20px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        body {
+            background colour: blue;
+        }
+        h1 {
+            text-align: center;
+        }
+        h3 {
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+            font size: 50px;
+         }
+    </style>
+    <title> html </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+  <center><h1>
+    registration form
+    <i class="fas fa-star"></i>
+</h1>
+<h3>
+     first document  <i class="fas fa-star"></i>
+</h3>
+<hr>
+<h4>*please enter your details first</h4>
+<form action="next page.html" method="get">
+    <label for="Name"> name:
+        </label>
+        <input type="text" name="name" placeholder="enter your name" required id="Name" maxlength="11">
+       <br> <label for="age">age: </label>
+        <input type="number" name="age" placeholder="enter your age" required id="age" min="10" max="25">
+<br><label for="date of birth">DOB: </label>
+<input type="date" placeholder="birthday" required ><br>
+<label for="male"> male </label>
+<input type="radio" id="male" name="gender">
+<label for="female"> female </label>
+<input type="radio" id="female" name="gender"><br>
+<label for="choose"> choose your option </label>
+<select id="choose" name="option" > 
+   <optgroup label="course">
+    <option value=" " hidden> select an option </option> </op>]
+     <option value="cs"> cs </option>
+   <option value="bca"> bca </option>
+   <option value="it"> it </option></optgroup>
+</select><br>
+<label for="address"> address </label>
+<textarea id="address" name="address"maxlength="100"></textarea> <br>
+<label for="full time"> full time</label>
+<input type="checkbox" name="full time" id="full time">
+<label for="part time"> part time </label> 
+<input type="checkbox" id="part time" name="part time"><br>
+<label for="file-select"> mark sheet </label>
+<input type="file" id="file-select" name="marksheet"><br>
+
+<fieldset>
+    <legend> contact details</legend>
+    <label> place: <input type="place" name="place"</label>
+    <label> phone number: <input type="phone number" name="phone number"</label>
+</fieldset>
+<input type="reset" name="reset" value="reset"> 
+<button> submit</button>
+</form>
+</center>  
+</body>
+
+</html>
